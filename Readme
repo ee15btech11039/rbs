@@ -2,7 +2,9 @@ The idinput function defined here generates random binary signal.
 
 
 
-We can't directly compare the idinput functions for a given N band levels etc. as both(matlab and scilab) are generating intial signals randomly and they may or may not be same,thats why we compare the result of the butterworth filter part for same input in the test case.
+We can't directly compare the idinput functions for a given N,band,levels etc. as both(matlab and scilab) are 
+generating intial signals randomly and they may or may not be same,thats why we compare the result of the 
+butterworth filter part for same input in the test case.
 
 
 Here in test case we are comparing the outputs of idfilt(matlab) and filt function defined 
