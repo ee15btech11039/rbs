@@ -4,6 +4,7 @@
 //input the orresponding result of rbs function will also be same as rest all part of
 //rbs function just adjusts the outputs from the filter  with their corresponding sign 
 //and levels. 
+//test case input signals names u1 to u5,their corresponding bands band11,band21,band31..band51 and no.of channels nu1,nu2..nu5.
 
 loadmatfile('testfile2.mat')
 
