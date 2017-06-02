@@ -7,7 +7,7 @@
 
 loadmatfile('testfile2.mat')
 
-function[u]=filt(data,band1,nu)
+function[u]=filt(data,band1,nu) //data:-input signal to filter,band:-band,nu:-no.of channels of input signal
     [lhs,rhs]=argn(0)
     band=band1/2  //dividing the band by 2 as we are taking data from matlab and here band is defined in between [0 0.5].while in matlab it is defined in bw [0 1]
     if ~and(band==[0 0.5]) then
